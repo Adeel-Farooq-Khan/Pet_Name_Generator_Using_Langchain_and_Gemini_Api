@@ -6,7 +6,6 @@ from langchain.llms import GooglePalm
 from dotenv import load_dotenv
 
 load_dotenv()
-
 api_key = os.getenv("GOOGLE_API_KEY")
 
 def generate_pet_names(name, color):
